@@ -54,9 +54,6 @@ GameSir T4 Pro Joystick
 ### NORTH, SOUTH, EAST, WEST
 ```Key BTN_xxx 1``` KeyPress <br>
 ```Key BTN_xxx 0``` Key-Release
-### LB & RB (TL & TR)
-```Key BTN_Tx 1``` KeyPress<br>
-```Key BTN_Tx 0``` Key-Release
 ### Direction Button
 ```Absolute ABS_HAT0Y 0``` Key-Release<br>
 ```Absolute ABS_HAT0X 0``` Key-Release<br>
@@ -78,7 +75,10 @@ GameSir T4 Pro Joystick
 ```Absolute ABS_RY -32768``` KeyDown<br>
 ```Absolute ABS_RX 32768``` KeyRight<br>
 ```Absolute ABS_RX -32768``` KeyLeft
-###  LT & RT (0-255)
+### LB & RB (TL & TR Trigger) 
+```Key BTN_Tx 1``` KeyPress<br>
+```Key BTN_Tx 0``` Key-Release
+###  LT & RT (0-255 Trigger)
 ```Absolute ABS_Z 0``` Key-Release<br>
 ```Absolute ABS_RZ 0``` Key-Release<br>
 ```Absolute ABS_Z 255``` KeyPress (left)<br>
