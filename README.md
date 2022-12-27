@@ -89,10 +89,12 @@ GameSir T4 Pro Joystick
 
 ## RawInput Joystick Input Examples
 ## Python
-event.ev_type --> Absolute o Sync / event.code --> ABS_xxx
+Library
 ```
 pip install inputs
 ```
+Getting events from input library. ```event.ev_type --> Absolute o Sync```  / ``` event.code --> ABS_xxx```
+
 file joystick.py 
 ```
 import inputs
@@ -139,7 +141,7 @@ while True:
         # Direction Button
    
 ```
-<img  align="middle" width="32" height="32" src="https://raw.githubusercontent.com/carjavi/markdown-guide/master/img/python.svg"> [joystick.py](https://url.com)
+<img  align="middle" width="32" height="32" src="https://raw.githubusercontent.com/carjavi/joystick-code-windows/master/img/python.svg"> [joystick.py](https://url.com)
 
 
 <br>
