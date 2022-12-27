@@ -1,5 +1,4 @@
-<p align="center"><img src="https://raw.githubusercontent.com/carjavi/joystick-code-windows/master/img/joystick.png" height="100" alt=" " /></p>
-<br>
+<p align="center"><img src="https://raw.githubusercontent.com/carjavi/joystick-code-windows/master/img/joystick.png" height="200" alt=" " /></p>
 <h1 align="center">Joystick Code Windows</h1> 
 <h4 align="right">Dic 22</h4>
 
@@ -9,9 +8,30 @@
 
 <br>
 
-# joystick-code-windows
-Programming to Receive Joystick Input in Windows
 
+## Programming to Receive Joystick Input in Windows
+
+## Displaying Physical Buttons
+GameSir T4 Pro Joystick
+
+<img src="https://raw.githubusercontent.com/carjavi/joystick-code-windows/master/img/GameSir-T4-Pro.png" height="100" alt="">
+<img src="https://raw.githubusercontent.com/carjavi/joystick-code-windows/master/img/GameSir-T4-Pro2.png" height="100" alt="">
+
+## RawInput Joystick Input Examples
+
+## Python
+```
+import inputs
+
+while True:
+    events = inputs.get_gamepad()
+    for event in events:
+        print(event.ev_type, event.code, event.state)
+        if event.code == 'BTN_SOUTH' and event.state == 1:
+            print('Boton X')
+```
+
+## NodeJS 
 
 ---
 Copyright &copy; 2022 [carjavi](https://github.com/carjavi). <br>
