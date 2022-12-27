@@ -8,7 +8,6 @@
 
 <br>
 
-
 Programming to Receive Joystick Input in Windows
 
 <br>
