@@ -95,7 +95,9 @@ pip install inputs
 ```
 Getting events from input library. ```event.ev_type --> Absolute o Sync```  / ``` event.code --> ABS_xxx```
 
-file joystick.py 
+<br>
+
+file **joystick.py** 
 ```
 import inputs
 
