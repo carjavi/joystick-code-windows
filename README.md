@@ -189,6 +189,7 @@ def joystick():
 
                 #Exportar Data to NodeJS
                 sys.stdout.flush()
+                
         except Exception:
             print("joystick disconnected")
             return
