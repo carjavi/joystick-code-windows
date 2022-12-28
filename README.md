@@ -199,9 +199,11 @@ if __name__ == "__main__":
    
 ```
 
-> :warning: **Warning:** si inicia con el gampad desconectado no lo va a reconocer hasta que se reinicie el archivo Python
+> :warning: **Warning:** 
+> Si inicia con el gamepad desconectado no lo va a reconocer hasta que se reinicie el archivo Python.
 
-<br>
+> :memo: **Note:** 
+> Si se inicia con el gamepad instalado y se desconecta la app espera que se vuelva a conectar.
 
 > :memo: **Note:** 
  -Botones M1=(A button),M2=(B button),M3=(X button),M4=(Y button) 
@@ -225,7 +227,7 @@ install
 npm i python-shell
 ```
 
-file py-from-node.js
+file **py-from-node.js**
 ```
 const PythonShell = require('python-shell').PythonShell;
 
@@ -242,6 +244,7 @@ function loop() {
 loop();
 ```
 
+<img  align="middle" width="32" height="32" src="https://raw.githubusercontent.com/carjavi/joystick-code-windows/master/img/js.svg"> [py-from-node.js](https://url.com)
 
 <br>
 
